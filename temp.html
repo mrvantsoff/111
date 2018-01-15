@@ -1,0 +1,87 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" >
+<title> my_labs </title>
+<head>
+
+	<link rel="stylesheet" href="css/style.css" type="text/css" media="screen, projection" />
+</head>
+<body>
+<div id="wrapper">
+<!-- начало хедера -->
+	<div id="header">
+		<table width="100%" height="100px" border="0" cellspacing="0">
+  <tr>
+    <td align="center" width="200px"><img src="img/logo.jpg" width="200px" height="97px" alt=""></td>
+    <td align="center" width="1000px"><img src="img/img_heder.jpg" width="1000px" height="97px" alt=""></td>
+  </tr>
+</table>
+	</div><!-- #header-->
+<!-- конец хедера -->
+<!-- основной блок -->
+	<div id="middle">
+<!-- наполнение сайта - наш контент -->
+		<div id="container">
+			<div id="content">
+				 <h2 align="center" style="color:#009933;">Динамический сайт - страница 1</h2>
+	 <br>
+	 <h3 align="center">наполнение может быть любое...</h3>
+	 <br>
+    <p class="p_1" >
+	 Основной принцип динамики данного сайта - это отделение блоков <b>header, sideLeft и footer</b><br>
+     в отдельные файлы с расширением <b>.php</b>, и подключение их при помощи функции PHP <span style="color:#009900;">require</span> ко всем <br>
+     создаваемым файлам. На данном шаблоне будет создано три страницы, для более точного примера.<br>
+     Даже если вы не знакомы с языком PHP, то можно просто вставлять свои материалы в отдельные файлы <br>
+     между метками.
+	  </p>
+      <p class="p_1" >
+      Для файла <big>header</big> нужно придумать фон, или нарисовать красивую шапку, по принципу обычного <big>HTML сайта</big>.
+      Колоссальное удобство будет сильно заметно, когда сайт разрастется на несколько десятков<br> страниц и управлять баннерами и основным меню
+      на сайте будет очень просто по данному принципу.<br>
+      Такая - же ситуация и с другими блоками.
+      </p>
+      <p class="p_1" >
+      Основное наполнение - <big>контент</big>, нужно делать посредством изменения файла temp.php между метками <big>"AAA и BBB"</big>  и присвоением ему названия, обязательно с расширением <b>.php</b>
+      </p>
+     
+          <br>
+			</div><!-- #content-->
+		</div><!-- #container-->
+<!-- левый сайдбар -->
+		<div class="sidebar" id="sideLeft">
+			<div class="menu">
+<strong>меню для сайта</strong>
+    <ul>
+     <li><a href="index.php">главная</a></li>
+     <li><a href="page 1.php">описание динамики</a></li>
+     <li><a href="page 2.php">описание сайдбара</a></li>
+     <li><a href="temp.html">шаблон для порезки</a></li>
+     <li><a href="#">раздел 4</a></li>
+     <li><a href="#">раздел 5</a></li>
+     <li><a href="#">раздел 6</a></li>
+     <li><a href="#">раздел 7</a></li>
+    </ul>
+    <br><br>
+ </div>
+ <br> 
+ <br>
+ <div class="reklama">
+ <p class="p_1" >
+ Здесь<br> можно<br> расположить<br> баннеры
+ </p>
+ <p class="p_1" >
+ Здесь<br> можно<br> расположить<br> рекламные ссылки
+ </p>
+ <p class="p_1" >
+ Свои другие материалы.
+ </p>
+ </div>   
+		</div><!-- .sidebar#sideLeft -->
+
+	</div><!-- #middle-->
+    
+	<div id="footer">
+	
+   	</div><!-- #footer -->
+</div><!-- #wrapper -->
+
+</body>
+</html>
